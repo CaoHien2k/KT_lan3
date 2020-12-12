@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalPage">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#EDEDED"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:background="@drawable/bg_top"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/user"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="4dp"
+                    />
+                <TextView
+                android:id="@+id/tvtk"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="CAO THỊ THU HIỀN"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                />
+                />
+                <TextView
+                    android:id="@+id/tvtk1"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="1811505310312"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                   android:textStyle="bold"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/tvc"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:text="Thành viên chuẩn"
+                    android:textColor="#050101"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Săn thưởng cùng MoMo"
+                    android:textColor="#050101"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/st"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Giới Thiệu MoMo"
+                    android:textColor="#050101"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/gt"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+
+                >
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Liên Kết Thẻ"
+                    android:textColor="#050101"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/the"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Thanh toán hóa đơn"
+                    android:textColor="#050101"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/hoadon"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+
+                >
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Thẻ quà tặng"
+                    android:textColor="#050101"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/qua"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                >
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Trung tâm trợ giúp"
+                    android:textColor="#050101"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/icon_help"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Cài đặt"
+                    android:textColor="#050101"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/icon_settings"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Về Now"
+                    android:textColor="#050101"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/icon_warning"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btdx"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron_dangxuat"
+                android:text="Đăng xuất"
+                android:gravity="center"
+                android:textColor="#E91E63"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phiên bản 4.29.26"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foody Corporation"
+                android:textSize="18sp"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   "
+                android:gravity="center"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BNV"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:itemHorizontalTranslationEnabled="true"
+        android:background="@drawable/menu_bottom_navigation_view"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_bottom_navigation_view"
+        app:itemTextAppearanceActive="@style/Bottom_Navigation_View"/>
+</RelativeLayout>

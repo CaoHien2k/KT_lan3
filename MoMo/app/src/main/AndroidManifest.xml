@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.momo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".notification"></activity>
+        <activity android:name=".movie" />
+        <activity android:name=".Milk_Tea_Activity_Main" />
+        <activity android:name=".Milk_Tea_Details" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PersonalPage" />
+        <activity android:name=".wallet_activity" />
+        <activity android:name=".Clicked_Item_Collection" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

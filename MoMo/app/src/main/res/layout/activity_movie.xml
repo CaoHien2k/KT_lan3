@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".movie">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            >
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/VP_IMAGE1"
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Phim đang chiếu"
+                android:textColor="#000"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:drawableLeft="@drawable/vitri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đà Nẵng"
+                android:textColor="#2196F3"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/Horizontal_Scroll_View_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <GridView
+                    android:id="@+id/GV_03"
+                    android:layout_width="1700dp"
+                    android:layout_height="400dp"
+                    android:numColumns="5" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</RelativeLayout>

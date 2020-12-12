@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Milk_Tea_Activity_Main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorAccent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="Đồ Ăn Online"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_centerHorizontal = "true"
+            />
+
+        <ImageView
+            android:id="@+id/ITEM_MT_ICON_BACK"
+            android:layout_alignParentLeft = "true"
+            android:adjustViewBounds = "true"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop = "5dp"
+            android:scaleType = "centerInside"
+            android:src = "@drawable/icon_arrow_left"
+            />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        app:tabTextAppearance="@style/Text_Tab_Layout"
+        style="@style/CustomTabLayout"
+        android:background="#fff"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
